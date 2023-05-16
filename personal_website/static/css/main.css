@@ -3,25 +3,6 @@ body {
   font-family: "JetBrains Mono", monospace;
 }
 
-header .avatar {
-  vertical-align: middle;
-  border: 1px solid #839496;
-  box-shadow: 5px 5px #002b36;
-}
-header .name-header {
-  color: #002b36;
-  font-weight: 800;
-}
-header .roles-header {
-  color: #586e75;
-  font-weight: 400;
-  font-size: 14pt;
-}
-
-.top-spacer {
-  height: 50px;
-}
-
 .container {
   width: 100%;
   text-align: center;
@@ -32,24 +13,6 @@ header .roles-header {
 .content-wrapper {
   max-width: 800px;
   text-align: center;
-}
-
-.social-links {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.social-links a {
-  color: #002b36;
-  text-decoration: none;
-  pointer-events: auto;
-}
-.social-links a i {
-  font-size: 32pt;
-}
-.social-links a:hover {
-  color: #268bd2;
-  text-decoration: none;
 }
 
 .text-secondary {

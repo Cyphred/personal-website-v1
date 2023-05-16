@@ -1,47 +1,10 @@
-$base03: #002b36;
-$base02: #073642;
-$base01: #586e75;
-$base00: #657b83;
-$base0: #839496;
-$base1: #93a1a1;
-$base2: #eee8d5;
-$base3: #fdf6e3;
-$yellow: #b58900;
-$orange: #cb4b16;
-$red: #dc322f;
-$magenta: #d33682;
-$violet: #6c71c4;
-$blue: #268bd2;
-$cyan: #2aa198;
-$green: #859900;
+@use "colors";
+
 $jetbrains: "JetBrains Mono", monospace;
 
 body {
-  background-color: $base2;
+  background-color: colors.$base2;
   font-family: $jetbrains;
-}
-
-header {
-  .avatar {
-    vertical-align: middle;
-    border: 1px solid $base0;
-    box-shadow: 5px 5px $base03;
-  }
-
-  .name-header {
-    color: $base03;
-    font-weight: 800;
-  }
-
-  .roles-header {
-    color: $base01;
-    font-weight: 400;
-    font-size: 14pt;
-  }
-}
-
-.top-spacer {
-  height: 50px;
 }
 
 .container {
@@ -56,43 +19,22 @@ header {
   text-align: center;
 }
 
-.social-links {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-
-  a {
-    color: $base03;
-    text-decoration: none;
-    pointer-events: auto;
-
-    i {
-      font-size: 32pt;
-    }
-  }
-
-  a:hover {
-    color: $blue;
-    text-decoration: none;
-  }
-}
-
 .text-secondary {
-  color: $base0;
+  color: colors.$base0;
 }
 
 main {
   text-align: left;
-  color: $base03;
+  color: colors.$base03;
   font-size: 14pt;
   font-weight: 400;
 
   .segment-container {
-    border: 1px solid $base01;
+    border: 1px solid colors.$base01;
     padding: 5px 32px;
-    box-shadow: 5px 5px $base03;
+    box-shadow: 5px 5px colors.$base03;
     margin: 2vh;
-    background-color: $base3;
+    background-color: colors.$base3;
   }
 
   h3 {
@@ -105,7 +47,7 @@ main {
   }
 
   a {
-    color: $blue;
+    color: colors.$blue;
     font-weight: 800;
     text-decoration: none;
   }

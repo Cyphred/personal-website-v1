@@ -1,0 +1,38 @@
+.top-spacer {
+  height: 50px;
+}
+
+header .avatar {
+  vertical-align: middle;
+  border: 1px solid #839496;
+  box-shadow: 5px 5px #002b36;
+}
+header .name-header {
+  color: #002b36;
+  font-weight: 800;
+}
+header .roles-header {
+  color: #586e75;
+  font-weight: 400;
+  font-size: 14pt;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.social-links a {
+  color: #002b36;
+  text-decoration: none;
+  pointer-events: auto;
+}
+.social-links a i {
+  font-size: 32pt;
+}
+.social-links a:hover {
+  color: #268bd2;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=home.css.map */

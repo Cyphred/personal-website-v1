@@ -1,0 +1,45 @@
+@use "colors";
+
+.top-spacer {
+  height: 50px;
+}
+
+header {
+  .avatar {
+    vertical-align: middle;
+    border: 1px solid colors.$base0;
+    box-shadow: 5px 5px colors.$base03;
+  }
+
+  .name-header {
+    color: colors.$base03;
+    font-weight: 800;
+  }
+
+  .roles-header {
+    color: colors.$base01;
+    font-weight: 400;
+    font-size: 14pt;
+  }
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  a {
+    color: colors.$base03;
+    text-decoration: none;
+    pointer-events: auto;
+
+    i {
+      font-size: 32pt;
+    }
+  }
+
+  a:hover {
+    color: colors.$blue;
+    text-decoration: none;
+  }
+}
