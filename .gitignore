@@ -1,2 +1,3 @@
 src/css/build
 env/
+db.sqlite3
