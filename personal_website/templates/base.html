@@ -42,11 +42,10 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="css/build/main.css" />
+    <link rel="stylesheet" href="{% static 'css/build/main.css' %}" />
   </head>
   <body>
     <div class="container">
-      This is the template
       {% block content %}{% endblock %}
     </div>
   </body>
