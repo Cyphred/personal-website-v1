@@ -1,0 +1,92 @@
+body {
+  background-color: #eee8d5;
+  font-family: "JetBrains Mono", monospace;
+}
+
+header .avatar {
+  vertical-align: middle;
+  border: 1px solid #839496;
+  box-shadow: 5px 5px #002b36;
+}
+header .name-header {
+  color: #002b36;
+  font-weight: 800;
+}
+header .roles-header {
+  color: #586e75;
+  font-weight: 400;
+  font-size: 14pt;
+}
+
+.top-spacer {
+  height: 50px;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.content-wrapper {
+  max-width: 800px;
+  text-align: center;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.social-links a {
+  color: #002b36;
+  text-decoration: none;
+  pointer-events: auto;
+}
+.social-links a i {
+  font-size: 32pt;
+}
+.social-links a:hover {
+  color: #268bd2;
+  text-decoration: none;
+}
+
+.text-secondary {
+  color: #839496;
+}
+
+main {
+  text-align: left;
+  color: #002b36;
+  font-size: 14pt;
+  font-weight: 400;
+}
+main .segment-container {
+  border: 1px solid #586e75;
+  padding: 5px 32px;
+  box-shadow: 5px 5px #002b36;
+  margin: 2vh;
+  background-color: #fdf6e3;
+}
+main h3 {
+  font-weight: 800;
+  font-size: 18pt;
+}
+main b {
+  font-weight: 800;
+}
+main a {
+  color: #268bd2;
+  font-weight: 800;
+  text-decoration: none;
+}
+main a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  padding: 1vh;
+}
+
+/*# sourceMappingURL=main.css.map */
