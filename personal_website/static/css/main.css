@@ -69,5 +69,9 @@ footer .contact p {
 footer .contact b {
   font-weight: 800;
 }
+footer .fine-print {
+  color: #586e75;
+  font-size: 9pt;
+}
 
 /*# sourceMappingURL=main.css.map */
