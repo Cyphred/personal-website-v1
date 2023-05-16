@@ -1,0 +1,16 @@
+@use "colors";
+
+nav {
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .nav-title {
+    font-weight: 800;
+  }
+}

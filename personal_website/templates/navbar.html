@@ -1,0 +1,13 @@
+{% load static %}
+
+{% block imports %}
+    <link rel="stylesheet" href="{% static 'css/navbar.css' %}" />
+{% endblock %}
+
+<nav >
+  <a href="{% url 'main:index' %}">
+    <h1 class="nav-title">
+      Jeremy Andrews Zantua
+    </h1>
+  </a>
+</nav>

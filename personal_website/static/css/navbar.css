@@ -1,0 +1,12 @@
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+nav .nav-title {
+  font-weight: 800;
+}
+
+/*# sourceMappingURL=navbar.css.map */
