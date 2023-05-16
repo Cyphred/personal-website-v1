@@ -6,11 +6,19 @@ nav {
     color: inherit;
   }
 
+  a.home-link {
+    line-height: 25%;
+  }
+
   a:hover {
     text-decoration: underline;
   }
 
   .nav-title {
     font-weight: 800;
+  }
+
+  .subtitle {
+    color: colors.$cyan;
   }
 }

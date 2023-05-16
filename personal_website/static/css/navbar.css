@@ -2,11 +2,17 @@ nav a {
   text-decoration: none;
   color: inherit;
 }
+nav a.home-link {
+  line-height: 25%;
+}
 nav a:hover {
   text-decoration: underline;
 }
 nav .nav-title {
   font-weight: 800;
+}
+nav .subtitle {
+  color: #2aa198;
 }
 
 /*# sourceMappingURL=navbar.css.map */
