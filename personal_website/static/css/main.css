@@ -37,8 +37,14 @@ main h3 {
   font-weight: 800;
   font-size: 18pt;
 }
+main h4 {
+  font-weight: 800;
+}
 main b {
   font-weight: 800;
+}
+main b.yellow {
+  color: #b58900;
 }
 main a {
   color: #268bd2;
