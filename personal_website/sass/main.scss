@@ -8,7 +8,6 @@ body {
 }
 
 .container {
-  width: 100%;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -25,13 +24,16 @@ body {
 
 header {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
-  gap: 16;
   .name-header {
     margin: 0;
   }
   align-items: center;
   justify-content: center;
+  .avatar {
+    margin-bottom: 16px;
+  }
 }
 
 main {
@@ -46,8 +48,8 @@ main {
     box-shadow: 5px 5px colors.$base03;
     margin-top: 2vh;
     margin-bottom: 2vh;
+    margin-right: 5px;
     background-color: colors.$base3;
-    min-width: 500px;
   }
 
   h3 {
