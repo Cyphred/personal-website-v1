@@ -1,5 +1,5 @@
 # Sass
-src/css/build
+personal_website/static/css/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
