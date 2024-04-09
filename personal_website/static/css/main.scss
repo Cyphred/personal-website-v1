@@ -43,8 +43,16 @@ main {
     font-size: 18pt;
   }
 
+  h4 {
+    font-weight: 800;
+  }
+
   b {
     font-weight: 800;
+  }
+
+  b.yellow {
+    color: colors.$yellow;
   }
 
   a {
@@ -55,6 +63,12 @@ main {
 
   a:hover {
     text-decoration: underline;
+  }
+
+  .social-links {
+    display: flex;
+    flex-direction: row;
+    gap: 16;
   }
 }
 
