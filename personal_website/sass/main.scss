@@ -23,6 +23,17 @@ body {
   color: colors.$base0;
 }
 
+header {
+  display: flex;
+  flex-direction: row;
+  gap: 16;
+  .name-header {
+    margin: 0;
+  }
+  align-items: center;
+  justify-content: center;
+}
+
 main {
   text-align: left;
   color: colors.$base03;
@@ -33,7 +44,8 @@ main {
     border: 1px solid colors.$base01;
     padding: 5px 32px;
     box-shadow: 5px 5px colors.$base03;
-    margin: 2vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
     background-color: colors.$base3;
     min-width: 500px;
   }
@@ -64,11 +76,13 @@ main {
   a:hover {
     text-decoration: underline;
   }
+}
 
+div {
   .social-links {
     display: flex;
     flex-direction: row;
-    gap: 16;
+    gap: 8px;
   }
 }
 
