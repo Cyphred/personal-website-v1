@@ -18,6 +18,3 @@ def index(request):
   ]
   
   return render(request, "main/index.html", {'projects': projects})
-  
-def services(request):
-  return render(request, "main/services.html") 
