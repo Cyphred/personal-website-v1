@@ -55,7 +55,7 @@
         the most - <b>learning by doing</b>.
       </p>
     </div>
-
+    
     <div class="segment-container">
       <h3>Contact and Links</h3>
       <ul>
@@ -76,6 +76,30 @@
           </a>
         </li>
       </ul>
+    </div>
+    
+    <div class='segment-container'>
+      <h3>Project Previews</h3>
+      
+      <p>Screenshots of some of my previous projects, both done at work and my personal time.</p>
+
+      <p>Some projects are not present here due to non-disclosure agreements.</p>
+      
+      <div style='display: flex; flex-direction: column; gap: 8px'>
+        {% for project in projects %}
+          <div class='project-container'>
+            <h4 class='project-title'>{{ project.title }}</h4>
+            <p class='project-description'>{{ project.description }}</p>
+            
+            <div class='thumbnail-wrap'>
+              {% for image in project.images %}
+                <a class='thumbnail' style='background:url(/media/prescriptech/200-{{ image }})' href='/media/prescriptech/{{image}}' target='_blank' />
+              {% endfor %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      
     </div>
   </main>
 {% endblock %}
